@@ -38,6 +38,14 @@ h1 {
     padding-bottom: 400px;
     
 }
+.worklist {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    font-style:italic;
+
+}
 .nav {
     margin-top: 200px;
 }
@@ -60,6 +68,9 @@ p, p2 { margin:13%;
     width:1%;
     align-content: center;
     margin-top:15px;
+}
+.anewdisaster, .doitsans, .agraphichealing {
+    margin-bottom:400px;
 }
 
 
@@ -118,7 +129,14 @@ a {
     width:50%;
     margin: 0 auto;
     }
-    
+.type {
+     width:50%;
+        margin: 0 auto; 
+    }
+.anewdisaster, .doitsans, .agraphichealing {
+    margin-bottom:400px;
+}
+
 
     
     
