@@ -8,6 +8,7 @@ body {
 img {
     width:100%;
     padding-bottom: 50px;
+    margin:0 auto;
 }
 ul {
     font-family: English Towne;
@@ -24,11 +25,11 @@ a {
     text-decoration:none;
 }
 a:hover {
-  color: #EBD5CE;
+    color: #EBD5CE;
     font-style:italic
 }
 a:active {
-  color:beige;
+    color:beige;
 }
 h1 {
     font-size: 10px;
@@ -40,15 +41,29 @@ h1 {
 .nav {
     margin-top: 200px;
 }
-.backtotop {
-    padding:50px;
-    text-align: center;
-    width:100%;
-    font-size:10px;
-    
-    
+#contact {
+    font-size:20%;
     
 }
+.backtotop {
+    padding:none;
+    text-align: center;
+    width:100%;
+    font-size:10px;   
+}
+p, p2 { margin:13%;
+    text-align:center;
+    font-style:italic;
+    
+}
+.heart {
+    width:1%;
+    align-content: center;
+    margin-top:15px;
+}
+
+
+
 
 
 
@@ -75,11 +90,11 @@ h1 {
 /*media queries*/
 
 @media only screen and (min-width: 768px) {
-    h1,h2 {
-        display:block;
-        padding:inherit;
+h1,h2 {
+    display:block;
+    padding:inherit;
     }
-    .page-wrapper {
+.page-wrapper {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -93,11 +108,15 @@ h1 {
     padding:50px;
     padding-top:350px;
 }
-    a {
-        font-size: 100px;
+a {
+    font-size: 100px;
     }
-    .nav {
-        margin-top: 135px;
+.nav {
+     margin-top: 135px;
+    }
+.anewdisaster {
+    width:50%;
+    margin: 0 auto;
     }
     
 
